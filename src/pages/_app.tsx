@@ -1,20 +1,17 @@
-import "@/styles.css";
+import "@/styles/index.scss";
+import "@/styles/components/Navbar.scss";
 import "@/polyfills";
 
 import type { AppProps } from "next/app";
-import Head from "next/head";
+
+import { Layout } from "@/components/Layout";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
-			<Head>
-				<meta
-					name="color-scheme"
-					content="normal" // TODO: Set to "dark" or "light" based on theme
-				/>
-			</Head>
-
-			<Component {...pageProps} />
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
 		</>
 	);
 }

@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("Roboto-Medium.ttf") format("woff2"),
+		url("Roboto-Medium.ttf") format("woff");
+}
+
+/*@font-face {*/
+/*    font-family: "Roboto Light";*/
+/*    src: url("Roboto-Black.ttf") format("woff2"),*/
+/*    url("Roboto-Black.ttf") format("woff");*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: "Roboto Thin";*/
+/*    src: url("Roboto-Black.ttf") format("woff2"),*/
+/*    url("Roboto-Black.ttf") format("woff");*/
+/*}*/

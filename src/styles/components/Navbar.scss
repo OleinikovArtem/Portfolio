@@ -1,0 +1,36 @@
+@use "src/styles/variables" as *;
+
+.navigation {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	padding: 20px 35px;
+	display: flex;
+	justify-content: space-between;
+
+	&__logo {
+		font-size: 20px;
+		em {
+			color: $color_text_active;
+		}
+	}
+
+	&__menu {
+		display: flex;
+		&-item {
+		}
+
+		&-link {
+			padding: 10px;
+			font-size: 20px;
+			font-weight: 100;
+
+			&:hover {
+				text-decoration: none;
+				color: $color_text_active;
+			}
+		}
+	}
+}

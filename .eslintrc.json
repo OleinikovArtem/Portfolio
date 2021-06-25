@@ -21,6 +21,7 @@
 		"import/order": "off",
 
 		/* Custom preferences */
+		"react/prop-types": "off",
 		"@typescript-eslint/array-type": "error",
 		"@typescript-eslint/consistent-indexed-object-style": [
 			"error",
@@ -31,7 +32,7 @@
 		"@typescript-eslint/method-signature-style": "error", // Force type safety
 		"@typescript-eslint/no-dynamic-delete": "error", // Use Map/Set structures
 		"@typescript-eslint/no-invalid-void-type": "error", // Force type safety
-		"@typescript-eslint/no-unnecessary-type-constraint": "error",
+		"@typescript-eslint/no-unnecessary-type-constraint": "off",
 		"@typescript-eslint/prefer-optional-chain": "error",
 		"@typescript-eslint/prefer-ts-expect-error": "error", // Force type safety
 		"import/no-anonymous-default-export": "error", // For named React components
