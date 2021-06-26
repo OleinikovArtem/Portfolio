@@ -1,0 +1,17 @@
+@use "src/styles/variables" as *;
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 35px;
+
+	.my-name {
+		font-size: 20px;
+		font-weight: 100;
+		color: $color_primary;
+	}
+}

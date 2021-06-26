@@ -1,0 +1,51 @@
+@use "src/styles/variables" as *;
+
+.btn {
+	display: flex;
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: $color_text;
+	transition: color 0.12s;
+	font-size: 16px;
+	letter-spacing: 1px;
+	outline: none;
+	border: none;
+
+	&__outline {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	&__fill {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	&__text {
+		background: transparent;
+	}
+
+	&__icon {
+		.icon {
+			margin-left: 12px;
+
+			svg {
+				width: 45px;
+			}
+		}
+	}
+
+	&:hover {
+		color: $color_primary;
+
+		svg {
+			fill: $color_primary;
+		}
+	}
+
+	&:active svg {
+		fill: $color_active;
+		transform: scale(1.05);
+	}
+}

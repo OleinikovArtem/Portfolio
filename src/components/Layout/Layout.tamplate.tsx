@@ -1,17 +1,16 @@
-import React, { FC } from "react";
+import React, { FC } from 'react'
 
-import { Navbar } from "@/components/Navbar";
+import { Footer } from '@/components/Footer'
+import { Navbar } from '@/components/Navbar'
 
 const LayoutTemplate: FC = ({ children }) => (
 	<>
 		<header>
 			<Navbar />
 		</header>
-		<main>{children}</main>
-		<footer>
-			<h2>footer</h2>
-		</footer>
+		<main className="main">{children}</main>
+		<Footer />
 	</>
-);
+)
 
-export { LayoutTemplate };
+export { LayoutTemplate }

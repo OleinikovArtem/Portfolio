@@ -10,26 +10,25 @@
 	display: flex;
 	justify-content: space-between;
 
-	&__logo {
+	&__lang {
 		font-size: 20px;
-		em {
-			color: $color_text_active;
-		}
+		color: $color_primary;
 	}
 
 	&__menu {
 		display: flex;
+		width: 50%;
+		justify-content: space-between;
 		&-item {
 		}
 
 		&-link {
-			padding: 10px;
 			font-size: 20px;
 			font-weight: 100;
 
 			&:hover {
 				text-decoration: none;
-				color: $color_text_active;
+				color: $color_active;
 			}
 		}
 	}
