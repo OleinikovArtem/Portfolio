@@ -1,0 +1,60 @@
+.wrapper {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.positionBlock {
+	position: relative;
+	width: 50%;
+	left: 50%;
+	transform: translate(-50%, 55px);
+	animation: positionAnim 0.5s forwards 8.5s;
+}
+
+.block {
+	opacity: 0;
+	animation: blockAnim 0.5s forwards 7.2s;
+}
+
+.title {
+	white-space: nowrap;
+	padding-bottom: 15px;
+	margin-left: -3px;
+	font-size: 70px;
+	line-height: 73px;
+	font-weight: 400;
+	transition: all ease 0.5s;
+	animation: titleAnim 0.5s forwards 8.5s;
+}
+
+.description {
+	opacity: 0;
+	animation: sectionAnim 0.2s forwards 8s;
+}
+
+@keyframes sectionAnim {
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes positionAnim {
+	to {
+		left: 0;
+		transform: translate(0);
+	}
+}
+
+@keyframes blockAnim {
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes titleAnim {
+	to {
+		font-size: 32px;
+		line-height: 1.75;
+		opacity: 1;
+	}
+}
