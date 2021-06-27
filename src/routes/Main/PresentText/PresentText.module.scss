@@ -5,7 +5,7 @@
 
 .positionBlock {
 	position: relative;
-	width: 50%;
+	width: 532px;
 	left: 50%;
 	transform: translate(-50%, 55px);
 	animation: positionAnim 0.5s forwards 8.5s;
@@ -19,7 +19,6 @@
 .title {
 	white-space: nowrap;
 	padding-bottom: 15px;
-	margin-left: -3px;
 	font-size: 70px;
 	line-height: 73px;
 	font-weight: 400;
