@@ -1,11 +1,10 @@
-// import type { SyntheticEvent } from "react";
 import React, { FC } from 'react'
 
 import { FooterLayout } from './Footer.layout'
 
 const Footer: FC = () => {
 	const handleDownloadCV = () => {
-		alert('Download CV')
+		console.log('CV Download')
 	}
 
 	return <FooterLayout handleDownloadCV={handleDownloadCV} />

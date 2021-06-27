@@ -1,8 +1,8 @@
 import type { FC } from 'react'
 
-import { Button, VariantButton } from '@/components/Button'
 import type { IFooter } from '@/components/Footer/Footer.types'
-import { Icon, IconManes } from '@/components/Icon'
+import { Button, VariantButton } from '@/components/UI/Button'
+import { Icon, IconManes } from '@/components/UI/Icon'
 
 const FooterLayout: FC<IFooter> = ({ handleDownloadCV }) => (
 	<footer className="footer">
@@ -13,7 +13,7 @@ const FooterLayout: FC<IFooter> = ({ handleDownloadCV }) => (
 		>
 			Download CV
 		</Button>
-		<span className="my-name">Artem Oleinikov</span>
+		<span className="my-name">Contact with Me</span>
 	</footer>
 )
 

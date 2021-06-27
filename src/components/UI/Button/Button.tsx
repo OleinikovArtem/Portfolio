@@ -1,7 +1,6 @@
 import React, { FC } from 'react'
 
-import { ButtonLayout } from '@/components/Button/Button.layout'
-
+import { ButtonLayout } from './Button.layout'
 import type { IButton } from './Button.types'
 import { VariantButton } from './Button.types'
 
